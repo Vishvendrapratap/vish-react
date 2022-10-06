@@ -25,3 +25,37 @@
 .box{
   text-align: center;
 }
+
+.book-summary{
+
+ margin-top: 0;
+}
+.book-poster
+{
+width: 250px;
+height: 300px;
+object-fit: cover;
+}
+
+.book-container{
+  width: 250px;
+}
+
+.book-spec{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+.book-name{
+  font-size: 25px;
+  margin: 0;
+}
+.book-rating{
+  font-size: 18px;
+}
+.book-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
